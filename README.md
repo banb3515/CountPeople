@@ -62,16 +62,21 @@
 
 ---
 
-> ### **카메라 빌드 방법**
+> ### **빌드 방법**
 >
-> -   필요 라이브러리 - [빌드 방법 (Ubuntu)](https://www.notion.so/banb/Camera-0ca5a2353673492f98e6a7000e1b9831#4cdcbe62e4634116bc68adaee7c24285)
+> ```bash
+> git clone https://gitlab.com/BanB3515/CountPeople.git
+> ```
+>
+> #### 카메라
+>
+> -   필요 라이브러리 - [라이브러리 설치 (Ubuntu)](https://www.notion.so/banb/Camera-0ca5a2353673492f98e6a7000e1b9831#4cdcbe62e4634116bc68adaee7c24285)
 >     -   [OpenCV 4.5.2](https://opencv.org/releases/)
 >     -   [cURL](https://curl.se/)
 >     -   [CUDA 10.1](https://developer.nvidia.com/cuda-toolkit-archive) (CUDA 사용 시)
 >     -   [cuDNN 7.6.5 for CUDA 10.1](https://developer.nvidia.com/cudnn) (CUDA 사용 시)
 >
 > ```bash
-> git clone https://github.com/banb3515/CountPeople.git
 > cd CountPeople/CountPeopleCamera
 > mkdir build && cd build
 > # CUDA 미 사용 시, cmake -D CUDA=0 ..
@@ -79,4 +84,16 @@
 > cmake ..
 > make
 > ./CountPeopleCamera ../cp.ini
+> ```
+>
+> #### 서버
+>
+> -   필요 라이브러리
+>     -   [Express](https://expressjs.com/)
+>     -   [sqlite3](https://github.com/mapbox/node-sqlite3)
+>
+> ```bash
+> cd CountPeople/CountPeopleServer
+> npm install package.json --save
+> node server.js
 > ```
