@@ -1,0 +1,15 @@
+{
+  "name": "count-people-server",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "^4.17.1",
+    "package.json": "^2.0.1",
+    "sqlite3": "^v4.2.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "main": "server.js",
+  "author": "Printf (\"HelloWorld!\")",
+  "license": "MIT License"
+}
