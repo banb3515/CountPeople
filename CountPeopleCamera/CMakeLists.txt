@@ -32,7 +32,7 @@ include_directories(${OpenCV_INCLUDE_DIRS})
 set(CURL_LIBRARY "-lcurl") 
 find_package(CURL REQUIRED) 
 include_directories(${CURL_INCLUDE_DIR})
-# ----- OpenCV End -----
+# ----- cURL End -----
 
 add_executable(${PROJECT_NAME} ${SOURCE_FILES})
 target_link_libraries(${PROJECT_NAME} Threads::Threads ${OpenCV_LIBS} ${CURL_LIBRARIES})
