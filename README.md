@@ -19,7 +19,7 @@
 
 > ### **Count People이란?**
 >
-> -   [2021 Hello New( ) World 해커톤 대회](http://www.hellonewworld.co.kr/bbs/board.php?bo_table=51&wr_id=4) 진행 중 팀원([최정원](https://gitlab.com/BanB3515), [전준혁](https://gitlab.com/zaqwsx2003), 이권찬, 신정근)과 같이 개발한 프로젝트입니다.
+> -   [2021 Hello New( ) World 해커톤 대회](http://www.hellonewworld.co.kr/bbs/board.php?bo_table=51&wr_id=4) 진행 중 팀원([최정원](https://gitlab.com/BanB3515), [전준혁](https://github.com/zaqwsx2003), 이권찬, 신정근)과 같이 개발한 프로젝트입니다.
 > -   카메라를 사용하여 해당 위치에 사람이 몇명 모여있는지 서버에 실시간으로 저장하고, 앱에서 지도를 이용하여 사용자가 어느 위치에 몇명이 모여있는지 확인할 수 있습니다.
 
 ---
