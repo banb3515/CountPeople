@@ -4,7 +4,7 @@
 
 ---
 
-> ## **[Count People 로드맵](https://www.notion.so/banb/Count-People-f4ce902a65aa4c5e9aacc738ba5f0602)**
+> ## **[Count People 로드맵](https://banb.notion.site/Count-People-f4ce902a65aa4c5e9aacc738ba5f0602)**
 
 ---
 
