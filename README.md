@@ -1,6 +1,6 @@
 # **Count People**
 
-> ### **[Portfolio - CountPeople](http://banb.work/Portfolio/CountPeople)**
+> ### **[Project - CountPeople](http://banb.work/Project/CountPeople)**
 
 ---
 
